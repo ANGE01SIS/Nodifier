@@ -1,0 +1,24 @@
+{
+  "name": "nodifier",
+  "version": "1.0.0",
+  "description": "A daemon that alerts with notifications when there's changes or upcoming events in your Google Calendar.",
+  "main": "core.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch nodifier/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANGE01SIS/Nodifier.git"
+  },
+  "author": "Ángel Andrés",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ANGE01SIS/Nodifier/issues"
+  },
+  "homepage": "https://github.com/ANGE01SIS/Nodifier#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
